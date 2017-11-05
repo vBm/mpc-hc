@@ -24,3 +24,10 @@ build_script:
 test: off
 
 deploy: off
+
+artifacts:
+  - path: bin\mpc-hc_x64
+    name: MPC-HC.x64
+
+  - path: bin\mpc-hc_x86
+    name: MPC-HC.x86
